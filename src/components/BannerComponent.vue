@@ -1,7 +1,7 @@
 <template>
 	<div class="container-fluid">
 		<div class="row mb-5 py-5" id="banner">
-			<div class="col-md-10 p-5 ms-5">
+			<div class="col-md-10 p-5 ms-5 text-start">
 				<h1 class="mb-3" id="banner-title">Zuitt Course Booking System</h1>
 				<p class="mb-5" id="motto">
 					Opportunities for everyone, everywhere!

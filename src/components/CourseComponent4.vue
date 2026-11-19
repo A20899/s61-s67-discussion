@@ -1,0 +1,18 @@
+<template>
+  <div class="card h-100" id="CourseCard4">
+    <div class="card-body">
+      <h5 class="card-title">Course 4</h5>
+      <p class="card-text">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo cumque deserunt, vitae quidem facere amet molestiae nostrum! Quia est, inventore tenetur, quas, corporis quam adipisci accusamus laudantium enim libero saepe.
+      </p>
+      <p class="card-text">Price: PHP 5000</p>
+      <button class="btn btn-outline-primary">Enroll</button>
+    </div>
+  </div>
+</template>
+
+<script>
+export default { 
+  name: 'CourseComponent4'
+}
+</script>

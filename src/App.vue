@@ -6,21 +6,23 @@
   3. Style
  -->
 <script>
-    import BannerComponent from './components/BannerComponent.vue';
     import NavbarComponent from './components/NavbarComponent.vue';
+    import HomePage from './pages/HomePage.vue';
+    import CoursesPage from './pages/CoursesPage.vue'
 
     export default {
       components: {
-        BannerComponent,
-        NavbarComponent
+        NavbarComponent,
+        HomePage,
+        CoursesPage
       }
     }
 </script>
 
 <template>
-  
   <NavbarComponent />
-  <BannerComponent />
+  <HomePage />
+  <CoursesPage />
 </template>
 
 <style scoped>
