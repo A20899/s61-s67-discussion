@@ -1,55 +1,48 @@
+<!-- ACTIVITY SOLUTION START -->
 <template>
-    <div class="container highlights-container mt-4">
-        <div class="row row-cols-1 row-cols-md-3 g-3">
+ 	<div class="row my-5">
+ 		<h1 class="text-center text-primary mb-5">Why choose Zuitt?</h1>
+	    <div id="highlight1" class="col-md-4">
+	        <div id="highlight1" class="card p-2 min-height-100">
+	            <div class="card-body">
+	                <h1 class="text-center display-1 text-primary"><i class="bi bi-house-heart"></i></h1>
+	                <h4 class="card-title text-center">
+	                    Learn from Home
+	                </h4>
+	                <p class="card-text mt-3">
+	                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellat eum molestiae nisi mollitia minima quidem? Veniam consequatur enim cumque odio dolorem, ullam adipisci nobis deserunt repudiandae excepturi harum at debitis.
+		            </p>
+	            </div>
+	        </div>
+	    </div>
 
-            <!-- CARD 1 -->
-            <div class="col" id="highlight1">
-                <div class="card h-100">
-                    <div class="card-body">
-                        <h5 class="card-title">Learn from Home</h5>
-                        <p class="card-text">
-                            Learn from home with Zuitt!
-                        </p>
-                    </div>
-                </div>
-            </div>
-
-            <!-- CARD 2 -->
-            <div class="col" id="highlight2">
-                <div class="card h-100">
-                    <div class="card-body">
-                        <h5 class="card-title">Study Now, Pay Later</h5>
-                        <p class="card-text">
-                            Zuitt uses a study now pay later system to ensure students can focus on their studies.
-                        </p>
-                    </div>
-                </div>
-            </div>
-
-            <!-- CARD 3 -->
-            <div class="col" id="highlight3">
-                <div class="card h-100">
-                    <div class="card-body"> 
-                        <h5 class="card-title">Be Part of Our Community</h5>
-                        <p class="card-text">
-                            Join a community of likeminded programmers!
-                        </p>
-                    </div>
-                </div>
-            </div>
-
-        </div>
-    </div>
+	    <div id="highlight2" class="col-md-4">
+	        <div class="card p-2 min-height-100">
+	            <div class="card-body">
+	                <h1 class="text-center display-1 text-primary"><i class="bi bi-cash-coin"></i></h1>
+	                <h4 class="card-title text-center">
+	                    Study Now, Pay Later
+	                </h4>
+	                <p class="card-text mt-3">
+	                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellat eum molestiae nisi mollitia minima quidem? Veniam consequatur enim cumque odio dolorem, ullam adipisci nobis deserunt repudiandae excepturi harum at debitis.
+		            </p>
+	            </div>
+	        </div>
+	    </div>
+	         
+	    <div id="highlight3" class="col-md-4">
+	        <div class="card p-2 min-height-100">
+	            <div class="card-body">
+	                <h1 class="text-center display-1 text-primary"><i class="bi bi-people"></i></h1>
+	                <h4 class="card-title text-center">
+	                    Be Part of Our Community
+	                </h4>
+	                <p class="card-text mt-3">
+	                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellat eum molestiae nisi mollitia minima quidem? Veniam consequatur enim cumque odio dolorem, ullam adipisci nobis deserunt repudiandae excepturi harum at debitis.
+	                </p>
+	            </div>
+	        </div>
+	    </div>
+	</div>
 </template>
-
-<script>
-</script>
-
-<style scoped>
-h1 {
-    font-family: serif;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 48px;
-}
-</style>
+<!-- ACTIVITY SOLUTION END -->

@@ -1,23 +1,18 @@
+<!-- ACTIVITY SOLUTION START -->
 <template>
-            <!-- COURSE 1 -->
-            <div class="card h-100" id="CourseCard2">
-            <div class="card-body text-start">
-                <h5 class="card-title">Course 2</h5>
-                <p class="card-text">This is Course 2. This course can be purchased.</p>
-                <p class="card-text">Price: P6767</p>
-                <button class="btn btn-outline-primary" type="submit">Enroll</button>
-            </div>
-            </div>
+	<div id="CourseCard2" class="card p-2 h-100">
+     	<div class="card-body">
+         	<h4 class="card-title">
+            	Course 2
+         	</h4>
+         	<p class="card-text mt-3">
+             	Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo cumque deserunt, vitae quidem facere amet molestiae nostrum! Quia est, inventore tenetur, quas, corporis quam adipisci accusamus laudantium enim libero saepe.
+         	</p>
+         	<p>
+             	Price: PHP 2000
+         	</p>
+         	<button class="btn btn-outline-primary">Enroll</button>
+     	</div>
+	</div>
 </template>
-
-<script>
-</script> 
-
-<style scoped>
-h1 {
-    font-family: serif;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 48px;
-}
-</style>
+<!-- ACTIVITY SOLUTION END -->

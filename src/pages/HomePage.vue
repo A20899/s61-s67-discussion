@@ -1,21 +1,20 @@
+<!-- ACTIVITY SOLUTION START -->
 <script>
-	import BannerComponent from '../components/BannerComponent.vue';
-	import HighlightsComponent from '../components/HighlightsComponent.vue'
-	export default {
-		components: {
-			BannerComponent,
-			HighlightsComponent
-		}
-	}
+  import BannerComponent from '../components/BannerComponent.vue';
+  import HighlightsComponent from '../components/HighlightsComponent.vue';
+
+  export default {
+    components: {
+      BannerComponent,
+      HighlightsComponent
+    }
+  }
 </script>
 
 <template>
-	
-	<BannerComponent />
+  <div class="container-fluid">
+    <BannerComponent />
     <HighlightsComponent />
-
+  </div>
 </template>
-
-<style>
-	
-</style>
+<!-- ACTIVITY SOLUTION END -->
